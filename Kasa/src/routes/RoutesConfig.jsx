@@ -11,7 +11,6 @@ const RoutesConfig = () => {
       <Route path="/" element={<Home />} />
       <Route path="/lodging/:id" element={<Lodging />} />
       <Route path="/about" element={<About />} />
-      {/* path = "*" is for all other url adresses that non exist */}
       <Route path="*" element={<Error404 />} />
     </Routes>
   );
